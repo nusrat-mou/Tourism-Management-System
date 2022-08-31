@@ -1,0 +1,146 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.container {
+  background-image: url("../IMG/signup2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+  box-sizing: border-box;
+  height: 100vh;
+  width: 100vw;
+}
+
+.innerbox {
+  height: 80vh;
+  width: 50vw;
+  position: absolute;
+  top: 48%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+.form {
+  height: 55vh;
+  width: 40vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+input[type="file"] {
+  border: 2px solid black;
+  border-radius: 20px;
+  outline: none;
+  font-size: 11px;
+  width: 34%;
+  margin: 2px;
+  padding: 5px;
+  text-align: center;
+  background-color: #feffff;
+}
+
+input[type="date"] {
+  border: 2px solid black;
+  border-radius: 20px;
+  outline: none;
+  font-size: 11px;
+  width: 34%;
+  margin: 2px;
+  padding: 5px;
+  text-align: center;
+  background-color: #feffff;
+}
+
+input[type="submit"] {
+  border: 2px solid black;
+  border-radius: 20px;
+  outline: none;
+  font-size: 11px;
+  width: 26%;
+  margin: 2px;
+  padding: 5px;
+  text-align: center;
+  background-color: #feffff;
+}
+
+input[type="text"] {
+  border: 2px solid black;
+  border-radius: 20px;
+  outline: none;
+  font-size: 11px;
+  width: 34%;
+  margin: 2px;
+  padding: 5px;
+  text-align: center;
+  background-color: #feffff;
+}
+
+input[type="password"] {
+  border: 2px solid black;
+  border-radius: 20px;
+  outline: none;
+  font-size: 11px;
+  width: 34%;
+  margin: 2px;
+  padding: 5px;
+  text-align: center;
+  background-color: #feffff;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.bottombox {
+  width: 13vw;
+  height: 6vh;
+  align-items: center;
+  justify-content: center;
+  display: inline;
+}
+
+img {
+  height: 100px;
+  width: 111px;
+  border-radius: 50%;
+  border: 1px solid #feffff;
+}
+
+.nav-bar {
+  /* background-color: #7bdbbb; */
+  background-color: #334756;
+  padding: 1% 7%;
+  text-align: center;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  /* color: rgb(0, 0, 0); */
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+}
+
+.message {
+  height: 10vh;
+  width: 20vw;
+  position: absolute;
+  top: 21%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: rgb(0, 0, 0);
+}

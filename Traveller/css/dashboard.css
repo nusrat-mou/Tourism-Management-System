@@ -1,0 +1,171 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.nav-bar {
+  /* background-color: #7bdbbb; */
+  background-color: #334756;
+  padding: 1% 7%;
+  text-align: center;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  /* color: rgb(0, 0, 0); */
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 10px 45px;
+}
+
+.dropdown {
+  display: inline;
+  position: relative;
+}
+
+.dropdown-content {
+  position: absolute;
+  top: 30px;
+  right: 0px;
+  /* background-color: #7bdbbb; */
+  background-color: rgb(73, 71, 71);
+  text-align: left;
+  min-width: 100px;
+  display: none;
+}
+
+.dropdown-content a {
+  display: block;
+}
+
+/* .dropdown:hover .dropdown-content {
+     display: block; 
+  } */
+
+.dropdown-content a:hover {
+  /* background-color: rgb(4, 185, 125); */
+  background-color: black;
+}
+/**/
+
+.dropdown2 {
+  display: inline;
+  position: relative;
+}
+
+.dropdown-content2 {
+  position: absolute;
+  top: 30px;
+  right: 0px;
+  background-color: #334756;
+  text-align: left;
+  min-width: 100px;
+  display: none;
+}
+
+.dropdown-content2 a {
+  display: block;
+}
+
+.dropdown-content2 a:hover {
+  /* background-color: rgb(4, 185, 125); */
+  background-color: black;
+}
+
+.dropdown3 {
+  display: inline;
+  position: relative;
+}
+
+.dropdown-content3 {
+  position: absolute;
+  top: 30px;
+  right: 0px;
+  background-color: #334756;
+  text-align: left;
+  min-width: 100px;
+  display: none;
+}
+
+.dropdown-content3 a {
+  display: block;
+}
+
+/* .dropdown3:hover .dropdown-content3 {
+  display: block;
+} */
+
+.dropdown-content3 a:hover {
+  background-color: black;
+}
+
+.container {
+  background-image: url("../IMG/img1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+  position: relative;
+  /* background-color: blueviolet; */
+}
+
+#Home {
+  background-image: url("../IMG/home.png");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: 20px 20px;
+}
+
+#package {
+  background-image: url("../IMG/package.png");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: 20px 20px;
+}
+
+#profile {
+  background-image: url("../IMG/profile1.png");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: 20px 20px;
+}
+
+#logout {
+  background-image: url("../IMG/logout2.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: 18px 18px;
+}
+
+#guide {
+  background-image: url("../IMG/guide.png");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: 20px 20px;
+}
+
+#myprofile {
+  background-image: url("../IMG/profile.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: 18px 18px;
+}
+
+.message {
+  height: 50vh;
+  width: 50vw;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  text-align: center;
+}

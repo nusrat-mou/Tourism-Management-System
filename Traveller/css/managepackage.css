@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  /* background-image: url("background1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+  height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+  position: relative;
+  background-color: #fdd2bf;
+}
+
+.innerbox {
+  height: 70vh;
+  width: 50vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+input[type="text"],
+[type="number"] {
+  border: 2px solid black;
+  border-radius: 8px;
+  outline: none;
+  font-size: 16px;
+  width: 31%;
+  margin: 2px;
+  padding: 4px;
+  text-align: center;
+  background-color: #54436b;
+  background-size: 20px 20px;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-position: 11px 2px;
+  color: antiquewhite;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+input[type="submit"] {
+  border: 2px solid black;
+  border-radius: 20px;
+  outline: none;
+  width: 47%;
+  margin: 2px;
+  padding: 6px;
+  text-align: center;
+  background-color: #54436b;
+  color: antiquewhite;
+  font-size: 11px;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: antiquewhite;
+  opacity: 1; /* Firefox */
+  font-size: 16px;
+}
+
+.button {
+  display: inline;
+  width: 17vw;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-bar {
+  /* background-color: #7bdbbb; */
+  background-color: rgb(1, 36, 67);
+  padding: 1% 7%;
+  text-align: center;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  /* color: rgb(0, 0, 0); */
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+}
+
+#cancel {
+  border: 2px solid black;
+  border-radius: 20px;
+  outline: none;
+  font-size: 11px;
+  width: 13%;
+  margin: 2px;
+  padding: 7px;
+  text-align: center;
+  background-color: #54436b;
+}
+
+#book {
+  border: 2px solid black;
+  border-radius: 20px;
+  outline: none;
+  font-size: 11px;
+  width: 13%;
+  margin: 2px;
+  padding: 7px;
+  text-align: center;
+  background-color: #54436b;
+}
+
+#Home {
+  border: 2px solid black;
+  border-radius: 20px;
+  outline: none;
+  font-size: 11px;
+  width: 13%;
+  margin: 2px;
+  padding: 7px;
+  text-align: center;
+  background-color: #54436b;
+}
+
+#bookguide {
+  border: 2px solid black;
+  border-radius: 20px;
+  outline: none;
+  font-size: 11px;
+  width: 13%;
+  margin: 2px;
+  padding: 7px;
+  text-align: center;
+  background-color: #54436b;
+}
+
+.bottombox2 {
+  background-color: rgb(255, 255, 255);
+  height: 30vh;
+  width: 20vw;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: auto;
+  text-align: center;
+}
+
+.bottombox1 {
+  background-color: rgb(255, 255, 255);
+  height: 20vh;
+  width: 20vw;
+  position: absolute;
+  bottom: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: auto;
+  text-align: center;
+}
+
+.booked {
+  height: 40vh;
+  width: 20vw;
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  top: 50%;
+  left: 50%;
+  overflow: auto;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.message {
+  height: 20vh;
+  width: 20vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+}

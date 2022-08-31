@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  /* background-image: url("background1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+  height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+  position: relative;
+  background-color: #fdd2bf;
+}
+
+.innerbox {
+  height: 70vh;
+  width: 50vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+input[type="text"],
+[type="number"] {
+  border: 2px solid black;
+  border-radius: 8px;
+  outline: none;
+  font-size: 16px;
+  width: 31%;
+  margin: 2px;
+  padding: 4px;
+  text-align: center;
+  background-color: #54436b;
+  background-size: 20px 20px;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-position: 11px 2px;
+  color: antiquewhite;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+input[type="submit"] {
+  border: 2px solid black;
+  border-radius: 20px;
+  outline: none;
+  width: 47%;
+  margin: 2px;
+  padding: 6px;
+  text-align: center;
+  background-color: #54436b;
+  color: antiquewhite;
+  font-size: 11px;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: antiquewhite;
+  opacity: 1; /* Firefox */
+  font-size: 16px;
+}
+
+.button {
+  display: inline;
+  width: 17vw;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-bar {
+  /* background-color: #7bdbbb; */
+  background-color: #54436b;
+  padding: 1% 7%;
+  text-align: center;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  /* color: rgb(0, 0, 0); */
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+}
+
+.nav-bar a:hover {
+  background-color: rgb(62, 44, 65);
+}
+
+.bottombox2 {
+  background-color: rgb(255, 255, 255);
+  height: 30vh;
+  width: 20vw;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: auto;
+  text-align: center;
+}
+
+.bottombox1 {
+  background-color: rgb(255, 255, 255);
+  height: 15vh;
+  width: 20vw;
+  position: absolute;
+  bottom: 47%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: auto;
+  text-align: center;
+}
+
+#cancel {
+  border: 2px solid black;
+  border-radius: 20px;
+  outline: none;
+  font-size: 11px;
+  width: 13%;
+  margin: 2px;
+  padding: 7px;
+  text-align: center;
+  background-color: #54436b;
+}
+
+.message {
+  height: 20vh;
+  width: 20vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+}
