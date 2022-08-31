@@ -1,0 +1,102 @@
+body {
+  font-family: Times New Roman;
+  color: rgb(241, 241, 241);
+  padding: 0px;
+  background-image: url("../IMG/dashboard.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 72px;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 252px;
+}
+
+/* Header/Blog Title */
+.header {
+  text-align: center;
+  top: 0;
+  padding: 0px;
+}
+#nav-menu {
+  width: 500px;
+  height: 80px;
+  margin: 0 auto;
+}
+.navbar {
+  background-color: rgb(6, 6, 77);
+  padding: 1% 7%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  padding: 13px 28px;
+  cursor: pointer;
+}
+.navbar a:hover {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: rgb(38, 26, 114);
+}
+
+.header h1 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.header h2 {
+  font-size: 30px;
+  text-align: center;
+  top: 0;
+}
+#panel,
+#flip {
+  padding: 10px;
+  text-align: center;
+  background-color: rgb(6, 6, 77);
+}
+#panel {
+  padding: 50px;
+  display: none;
+}
+
+div.sticky {
+  position: sticky;
+  top: 0;
+  padding: 0;
+  border: 2px solid #553988;
+}
+.container {
+  background-color: #0b5674;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  margin: 72px;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  /* background-color: blueviolet; */
+}
+.innerbox {
+  height: 50vh;
+  width: 50vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+div.fixed {
+  position: fixed;
+  top: 0;
+  width: 300px;
+}
