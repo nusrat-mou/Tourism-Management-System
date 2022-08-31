@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-image: url("../IMG/AboutUs.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+  position: relative;
+  /* background-color: blueviolet; */
+}
+
+.innerbox {
+  height: 56vh;
+  width: 40vw;
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.innerbox h3 {
+  font-family: "roboto";
+  font-style: italic;
+  font-size: 1.5rem;
+  margin-bottom: 0;
+  text-shadow: 1px 1px 0 black;
+  color: white;
+}
+
+.nav-bar {
+  /* background-color: #7bdbbb; */
+  background-color: #334756;
+  padding: 1% 7%;
+  text-align: center;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  /* color: rgb(0, 0, 0); */
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 10px 45px;
+}
