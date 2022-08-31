@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Times New Roman;
+    padding: 10px;
+    background-color:lavenderblush
+  }
+  
+  /* Header/Blog Title */
+  .header {
+    text-align: center;
+    top: 0;
+    padding:0;
+    
+   
+  }
+  
+  .header h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .header h2 {
+    font-size: 30px;
+    text-align: center;
+    top: 0;
+    padding:0;
+    
+  }
+  
+  input[type=text], select {
+    width: 20%;
+    text-align:center;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(147, 154, 184);
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=submit] {
+    width: 18%;
+    background-color: #7574af;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type=submit]:hover {
+    background-color: #121b4d;
+  }
+  
+  
+  div.sticky {
+      position: sticky;
+      top: 0;
+      padding: 0;
+      border: 2px solid #553988;
+    
+    }
+  /* Style the top navigation bar */
+  .topnav {
+    
+    overflow: hidden;
+    background-color: rgb(228, 70, 96);
+   
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .topnav p {
+      float: right;
+      display: block;
+      color: blue;
+      text-align: left;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  div.fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    border: 3px solid #73AD21;
+  }
+  
+  
+  

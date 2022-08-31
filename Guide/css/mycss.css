@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* body {
+  font-family: Times New Roman;
+  padding: 10px;
+  background-image: url("../Image/GuidePicture.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+} */
+input {
+  width: 50%;
+  text-align: center;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 40px;
+  box-sizing: border-box;
+}
+
+#username {
+  background-image: url("../Image/username.png");
+  background-repeat: no-repeat;
+  background-position: 13px 13px;
+  font-size: 1rem;
+  padding: 15px 40px;
+  margin-top: 118px;
+}
+#password {
+  background-image: url("../Image/password.png");
+  background-repeat: no-repeat;
+  background-position: 13px 13px;
+  font-size: 1rem;
+  padding: 15px 40px;
+}
+
+/* Header/Blog Title */
+.header {
+  text-align: center;
+  top: 0;
+  padding: 35px;
+}
+
+.header h1 {
+  font-size: 30px;
+  text-align: center;
+}
+.header h2 {
+  font-size: 30px;
+  text-align: center;
+  top: 0;
+}
+
+input[type="submit"] {
+  width: 20%;
+  background-color: #af74a0;
+  font-family: Times New Roman;
+  font-size: 15px;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+  background-color: #ac347a;
+}
+
+div.sticky {
+  position: sticky;
+  top: 0;
+  padding: 0;
+  border: 2px solid #553988;
+}
+.container {
+  background-image: url("../Image/GuidePicture.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+  position: relative;
+  /* background-color: blueviolet; */
+}
+.innerbox {
+  height: 50vh;
+  width: 50vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#signup {
+  margin: 0 auto;
+}
+
+#signup ul li {
+  list-style-type: none;
+  margin: 20px;
+  float: right;
+}
+#signup ul li a {
+  width: 20%;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  background-color: #af74a0;
+  padding: 14px 20px;
+  margin-right: 266px;
+  border-radius: 40px;
+}
+#signup ul li a:hover {
+  text-decoration: none;
+  background-color: rgb(163, 36, 121);
+}
+div.fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+  border: 3px solid #73ad21;
+}

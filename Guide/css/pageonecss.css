@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Times New Roman;
+  padding: 0px;
+  background-image: url("../Image/pageone.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+#nav-menu {
+  width: 500px;
+  height: 80px;
+  margin: 0 auto;
+}
+.navbar {
+  background-color: rgb(59, 7, 37);
+  padding: 1% 7%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  padding: 13px 28px;
+  cursor: pointer;
+}
+.navbar a:hover {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: rgb(180, 30, 117);
+}
+.dropdown-container {
+  display: inline;
+  position: relative;
+}
+.dropdown-container a:hover {
+  display: inline;
+  position: relative;
+  background-color: rgb(180, 30, 117);
+}
+.dropdown-content {
+  position: absolute;
+  top: 30px;
+  right: 0px;
+  background-color: rgb(59, 7, 37);
+  text-align: left;
+  min-width: 100px;
+  display: none;
+}
+.dropdown-content a {
+  display: block;
+}
+.dropdown-content a:hover {
+  display: block;
+  background-color: rgb(180, 30, 117);
+}
+.dropdown-container:hover .dropdown-content {
+  display: block;
+}
+/* Header/Blog Title */
+.header {
+  text-align: center;
+  top: 0;
+  padding: 0;
+  color: white;
+}
+#panel,
+#flip {
+  padding: 10px;
+  text-align: center;
+  background-color: rgb(59, 7, 37);
+}
+#panel {
+  padding: 50px;
+  display: none;
+}
+
+.header h1 {
+  font-size: 30px;
+  text-align: center;
+}
+.header h2 {
+  font-size: 30px;
+  text-align: center;
+  top: 0;
+  padding: 30px;
+}
